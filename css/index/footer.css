@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(128, 128, 128, 0.111);
+  padding: 36px;
+}
+
+.footer-item-container {
+  display: flex;
+}
+
+.footer-item:not(.not-margin) {
+  color: blue;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}

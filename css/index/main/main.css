@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 54px;
+}
+
+main > div {
+  display: flex;
+}
+
+.blue {
+  color: #0065fc;
+}
+
+.grey {
+  color: #d8d8d8;
+}

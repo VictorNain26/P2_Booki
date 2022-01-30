@@ -1,0 +1,79 @@
+.popular-container {
+  flex-basis: 30%;
+  margin-left: 28px;
+  background-color: #ededed96;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.popular-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.popular-head > h4 {
+  font-weight: bolder;
+}
+
+.popular-head > span {
+  font-size: 18px;
+}
+
+.popular-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-card {
+  display: flex;
+  margin-bottom: 26px;
+  padding-right: 18px;
+  border-radius: 16px 16px 16px 16px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.popular-card:hover {
+  transform: scale(1.03);
+}
+
+.popular-card > img {
+  object-fit: cover;
+  border-radius: 16px 0 0 16px;
+  padding: 4px;
+  width: 40%;
+}
+
+.popular-card-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  margin-right: 14px;
+}
+
+.popular-card-info > h5 {
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 12px 0 4px 0;
+}
+
+.popular-card-info > p {
+  font-size: 11px;
+}
+
+.popular-star-container {
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.popular-star-container > i {
+  font-size: 9px;
+  letter-spacing: -2px;
+}
+
+.popular-card-info > p > span {
+  font-weight: bolder;
+}

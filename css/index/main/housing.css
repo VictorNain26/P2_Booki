@@ -1,0 +1,80 @@
+.housing-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  background-color: #f3f3f3;
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.housing-container > h4 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 24px 0 24px 24px;
+}
+
+.housing-container > p {
+  display: inline;
+  font-weight: bolder;
+  margin-left: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.housing-container > p:hover {
+  transform: translate(8px);
+}
+
+.housing-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.housing-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 21px;
+  border-radius: 16px 16px 16px 16px;
+  width: 190px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.housing-card:hover {
+  transform: scale(1.03);
+}
+
+.housing-card > img {
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+  padding: 4px;
+  width: 100%;
+  height: 100px;
+}
+
+.housing-card-info {
+  padding-left: 14px;
+}
+
+.housing-card-info > h5 {
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 2px 0 4px 0;
+}
+
+.housing-card-info > p {
+  font-size: 11px;
+}
+
+.housing-card-info > i {
+  font-size: 9px;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
+
+.housing-card-info > p > span {
+  font-weight: bolder;
+}

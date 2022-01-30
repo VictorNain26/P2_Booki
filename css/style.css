@@ -1,0 +1,20 @@
+@import './normalize.css';
+
+@import './index/header.css';
+@import './index/search.css';
+@import './index/filter.css';
+
+@import './index/main/main.css';
+@import './index/main/activity.css';
+@import './index/main/housing.css';
+@import './index/main/popular.css';
+
+@import './index/footer.css';
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.margin-container {
+  margin: 0 160px;
+}

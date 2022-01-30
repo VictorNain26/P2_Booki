@@ -1,0 +1,48 @@
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0 21px 0;
+}
+
+.activity-container > h4 {
+  margin-bottom: 18px;
+  font-weight: bolder;
+}
+
+.activity-card-container {
+  display: flex;
+}
+
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px 16px 16px 16px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: scale(1.03);
+}
+
+.activity-card > img {
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+  height: 90%;
+}
+
+.activity-card > p {
+  margin: 14px 0 0 18px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.activity-card-duo {
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
