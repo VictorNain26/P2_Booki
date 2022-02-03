@@ -23,14 +23,14 @@ nav > ul {
   padding-right: 40px;
 }
 
-nav > ul > li {
+nav > ul > li > a {
   display: flex;
   align-items: center;
   height: 100%;
   padding: 0px 24px;
 }
 
-nav > ul > li:hover {
+nav > ul > li > a:hover {
   border-top: 2px solid #0065fc;
   color: #0065fc;
   cursor: pointer;
@@ -60,7 +60,7 @@ nav > ul > li:hover {
     padding: 0;
   }
 
-  nav > ul > li {
+  nav > ul > li > a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ nav > ul > li:hover {
     border-bottom: #f2f2f2 2px solid;
   }
 
-  nav > ul > li:hover {
+  nav > ul > li > a:hover {
     border-bottom: 2px solid #0065fc;
     border-top: 0;
     color: #0065fc;

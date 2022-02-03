@@ -1,5 +1,5 @@
 .popular-container {
-  flex-basis: 30%;
+  flex-basis: 33%;
   margin-left: 28px;
   background-color: #ededed96;
   border-radius: 14px;
@@ -8,6 +8,7 @@
 
 .popular-head {
   display: flex;
+  margin: 15px 4px;
   justify-content: space-between;
   margin-bottom: 18px;
 }
@@ -17,16 +18,20 @@
 }
 
 .popular-head > span {
+  padding-right: 28px;
   font-size: 18px;
 }
 
 .popular-card-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .popular-card {
   display: flex;
+  width: 282px;
   margin-bottom: 26px;
   padding-right: 18px;
   border-radius: 16px 16px 16px 16px;
@@ -50,12 +55,12 @@
 .popular-card-info {
   display: flex;
   flex-direction: column;
-  padding-left: 8px;
-  margin-right: 14px;
+  padding-left: 12px;
+  margin-right: 4px;
 }
 
 .popular-card-info > h5 {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bolder;
   margin: 12px 0 4px 0;
 }
