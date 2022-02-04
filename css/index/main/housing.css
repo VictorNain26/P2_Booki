@@ -14,7 +14,7 @@
 }
 
 .housing-container > p {
-  display: inline;
+  border: black solid 1px;
   font-weight: bolder;
   margin-left: 24px;
   cursor: pointer;
