@@ -1,0 +1,25 @@
+.housing-popular-container {
+  flex-direction: column-reverse;
+}
+
+.popular-container {
+  flex-basis: 50%;
+  margin-left: 0;
+  margin-bottom: 28px;
+}
+
+.popular-card-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.popular-card {
+  width: 48%;
+  height: 130px;
+  padding-right: 18px;
+}
+
+.housing-card {
+  width: 30%;
+}

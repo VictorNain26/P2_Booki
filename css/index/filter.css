@@ -1,12 +1,9 @@
-.filter-container {
-  display: flex;
-  flex-direction: column;
-}
 .filter-button {
   display: flex;
   align-items: center;
   margin-top: 32px;
   margin-left: 54px;
+  flex-wrap: wrap;
 }
 
 .filter-container > h4 {
@@ -15,9 +12,9 @@
 
 .filter {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 14px;
+  margin-bottom: 4px;
   border: 2px solid #dadada;
   border-left: 0;
   border-radius: 40px;

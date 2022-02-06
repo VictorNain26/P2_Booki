@@ -1,0 +1,169 @@
+.global-container {
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  flex-direction: column;
+  margin-bottom: 90px;
+  margin-top: 32px;
+}
+
+header > img {
+  width: 120px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 42px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 0;
+}
+
+nav > ul > li {
+  flex-basis: 100%;
+  flex-direction: column-reverse;
+  margin-bottom: 14px;
+}
+
+nav > ul > li > div {
+  margin-top: 14px;
+  width: 100%;
+  border-top: 3px solid #f2f2f2;
+}
+
+/* Search and Filter */
+.titleSubTitle {
+  margin-left: 24px;
+}
+
+.titleSubTitle > h3 {
+  font-size: 24px;
+}
+
+form {
+  margin-left: 24px;
+}
+
+.inputButtonSearch {
+  content: 'alo';
+}
+
+.filter-button {
+  margin-left: 24px;
+}
+
+.filter-info {
+  margin-left: 24px;
+}
+
+.filter-info > p {
+  font-size: 16px;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0;
+}
+
+.housing-popular-container {
+  flex-direction: column-reverse;
+}
+
+.popular-container {
+  flex-direction: column;
+  margin-left: 0;
+  margin-bottom: 28px;
+  border-radius: 0;
+}
+
+.popular-card {
+  width: 100%;
+}
+
+.housing-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 66%;
+  background-color: white;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.housing-card-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.housing-card {
+  width: 100%;
+}
+
+.housing-container > p {
+  margin-left: 0;
+}
+
+.activity-container {
+  margin: 48px 14px 8px 14px;
+}
+
+.activity-card-container {
+  flex-direction: column;
+  height: auto;
+}
+
+.activity-card-solo > img {
+  border-radius: 16px 16px 0 0;
+  height: 10%;
+  object-fit: cover;
+}
+
+.activity-card-duo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.activity-card-solo:first-child {
+  margin-right: 0;
+}
+
+.activity-card-solo:not(:first-child) {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.activity-card-solo {
+  margin-bottom: 24px;
+}
+
+.activity-card-solo > p {
+  font-size: 15px;
+}
+
+.activity-card-duo > p {
+  font-size: 15px;
+}
+
+/* Footer */
+
+.footer-item-container {
+  flex-direction: column;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 24px;
+}

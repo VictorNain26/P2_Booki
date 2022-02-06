@@ -1,23 +1,19 @@
 .footer-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   background-color: rgba(128, 128, 128, 0.111);
   padding: 42px;
 }
 
 .footer-item-container {
   display: flex;
-  width: 1050px;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .footer-item {
   display: flex;
   flex-direction: column;
-}
-
-.footer-item:not(:first-child) {
-  margin-left: 220px;
+  flex-basis: 30%;
 }
 
 .footer-item > h6 {
