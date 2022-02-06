@@ -24,10 +24,11 @@
   height: 36px;
   border-left: 0;
   cursor: pointer;
+  transition: background-color 0.2s linear;
 }
 
 .filter:hover {
-  background-color: #deebff67;
+  background-color: #deebff87;
 }
 
 .filter-icon {

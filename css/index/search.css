@@ -48,6 +48,7 @@ input {
   height: 100%;
   width: 103px;
   font-size: 13px;
+  transition: background-color 0.2s ease;
 }
 
 .inputButtonSearch:hover {

@@ -15,6 +15,11 @@
   scroll-behavior: smooth;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -23,6 +28,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-main {
-  width: 55vw;
+a {
+  cursor: pointer;
 }
