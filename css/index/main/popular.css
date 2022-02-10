@@ -31,6 +31,7 @@
 .popular-card {
   display: flex;
   width: 282px;
+  height: 120px;
   margin-bottom: 26px;
   padding-right: 18px;
   border-radius: 16px 16px 16px 16px;
@@ -54,6 +55,7 @@
 .popular-card-info {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   padding-left: 12px;
   margin-right: 4px;
 }
@@ -61,7 +63,6 @@
 .popular-card-info > h5 {
   font-size: 13px;
   font-weight: bolder;
-  margin: 12px 0 4px 0;
 }
 
 .popular-card-info > p {
