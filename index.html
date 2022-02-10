@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-      rel="stylesheet"
       rel="preload"
+      as="style"
     />
     <link
       rel="stylesheet"
@@ -19,8 +19,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 992px)" href="./css/responsive/tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/responsive/mobile.css">
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px) and (max-width: 992px)"
+      href="./css/responsive/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/responsive/mobile.css"
+    />
     <title>Booki | Home</title>
   </head>
   <body>
@@ -90,13 +98,14 @@
         </div>
       </div>
       <main>
-        <section class="housing-popular-container">
-          <article id="housing" class="housing-container">
+        <div class="housing-popular-container">
+          <section id="housing" class="housing-container">
             <h4>Hébergement à Marseille</h4>
             <div class="housing-card-container">
               <div class="housing-card">
                 <img
                   src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="housing-card-info">
                   <h5>Auberge La Cannebière</h5>
@@ -111,6 +120,7 @@
               <div class="housing-card">
                 <img
                   src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="housing-card-info">
                   <h5>Hôtel du port</h5>
@@ -125,6 +135,7 @@
               <div class="housing-card">
                 <img
                   src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="housing-card-info">
                   <h5>Hôtel Les mouettes</h5>
@@ -139,6 +150,7 @@
               <div class="housing-card">
                 <img
                   src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="housing-card-info">
                   <h5>Hôtel de la mer</h5>
@@ -153,6 +165,7 @@
               <div class="housing-card">
                 <img
                   src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="housing-card-info">
                   <h5>Auberge Le Panier</h5>
@@ -167,6 +180,7 @@
               <div class="housing-card">
                 <img
                   src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="housing-card-info">
                   <h5>Hôtel chez Amina</h5>
@@ -180,9 +194,9 @@
               </div>
             </div>
             <p>Afficher plus</p>
-          </article>
+          </section>
 
-          <article class="popular-container">
+          <section class="popular-container">
             <div class="popular-head">
               <h4>Les plus populaires</h4>
               <span><i class="fas fa-chart-line"></i></span>
@@ -191,6 +205,7 @@
               <div class="popular-card">
                 <img
                   src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="popular-card-info">
                   <h5>Hotel Le Soleil du matin</h5>
@@ -207,6 +222,7 @@
               <div class="popular-card">
                 <img
                   src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="popular-card-info">
                   <h5>Au coeur de l'eau Chambres d'hôtes</h5>
@@ -223,6 +239,7 @@
               <div class="popular-card">
                 <img
                   src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                  alt="card image"
                 />
                 <div class="popular-card-info">
                   <h5>Hôtel Tout bleu et Blanc</h5>
@@ -237,14 +254,15 @@
                 </div>
               </div>
             </div>
-          </article>
-        </section>
+          </section>
+        </div>
         <section id="activity" class="activity-container">
           <h4>Activités à Marseille</h4>
           <div class="activity-card-container">
             <div class="activity-card-solo">
               <img
                 src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                alt="card image"
               />
               <p>Vieux Port</p>
             </div>
@@ -252,12 +270,14 @@
               <div class="activity-card-duo first">
                 <img
                   src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  alt="card image"
                 />
                 <p>Fort de Pomègues</p>
               </div>
               <div class="activity-card-duo two">
                 <img
                   src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                  alt="card image"
                 />
                 <p>Iles du Frioul</p>
               </div>
@@ -265,6 +285,7 @@
             <div class="activity-card-solo">
               <img
                 src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                alt="card image"
               />
               <p>Parc National des Calanques</p>
             </div>
@@ -272,12 +293,14 @@
               <div class="activity-card-duo three">
                 <img
                   src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt="card image"
                 />
                 <p>Notre-Dame-de-la-Garde</p>
               </div>
               <div class="activity-card-duo four">
                 <img
                   src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  alt="card image"
                 />
                 <p>Parc Longchamp</p>
               </div>
@@ -290,6 +313,7 @@
       <div class="footer-item-container">
         <div class="footer-item">
           <h6>A propos</h6>
+          <div class="footer-item"></div>
           <a>Fonctionnement du site</a>
           <a>Conditions générales de vente</a>
           <a>Données et confidentialité</a>
@@ -304,7 +328,7 @@
           <a>Centre d'aide</a>
           <a>Nous contacter</a>
         </div>
+      </div>
     </footer>
-  </div>
   </body>
 </html>
