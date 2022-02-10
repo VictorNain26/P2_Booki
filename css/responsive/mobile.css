@@ -125,16 +125,20 @@ main {
   height: auto;
 }
 
-.activity-card-solo > img {
-  border-radius: 16px 16px 0 0;
-  height: 10%;
-  object-fit: cover;
+.activity-card-container img {
+  height: 150px;
 }
+
 
 .activity-card-duo {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+}
+
+.activity-card-solo > img {
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
 }
 
 .activity-card-solo:first-child {
